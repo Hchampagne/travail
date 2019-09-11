@@ -8,7 +8,7 @@
        $base = "jarditou";    // La bdd avec laquelle vous voulez travailler 	
        try 	
        {	
-            $db = new PDO('mysql:host='.$host.':3307;charset=utf8;dbname=' .$base, $login, $password);	
+            $db = new PDO('mysql:host='.$host.':3306;charset=utf8;dbname=' .$base, $login, $password);	
             return $db;	
         } 	
         catch (Exception $e) 	
